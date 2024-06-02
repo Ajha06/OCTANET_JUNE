@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #1ABC9C;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 20;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about {
+    background-color: #F1C40F;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    color: #666;
+  }
+  
+  .destinations {
+    background-color: #e9e9e9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .destinations h2 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .destination-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .destination {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+  }
+  
+  .destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .destination h3 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .destination p {
+    color: #666;
+  }
+  
+  .packages {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .packages h2 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .package {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .package-details {
+    padding: 20px;
+  }
+  
+  .package-action {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .package-action .btn {
+    color: #fff;
+    background-color: #3498db;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .package-action .btn:hover {
+    background-color: #2980b9;
+  }
+  .contact {
+    background-color: #e9e9e9;
+    padding: 100px 0;
+    text-align: left;
+  }
+  
+  .contact h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin:
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #2980b9;
+  }
+  
+  form textarea {
+    height: 30px;
+    width: 50%;
+  }
+  footer {
+    text-align: center;
+  }
